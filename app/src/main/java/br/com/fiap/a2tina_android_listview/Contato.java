@@ -1,10 +1,12 @@
 package br.com.fiap.a2tina_android_listview;
 
+import java.io.Serializable;
+
 /**
  * Created by logonrm on 23/03/2017.
  */
 
-public class Contato {
+public class Contato implements Serializable {
 
     private String nome;
     private String telefone;
